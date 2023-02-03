@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+
+    justify-content: space-between;
+
+    background-color: #1f2937;
+
+    border: solid 1px red;
+
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    padding: 8px;
+}
+
+.links{
+    font-size: 18px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 16px;
+    padding: 8px;
+    /* border: solid 1px blue */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
