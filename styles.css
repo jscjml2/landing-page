@@ -139,7 +139,9 @@ a{
 }
 
 .fourpictureimg{
-    border: solid 5px #3882F6
+    border: solid 5px #3882F6;
+
+    border-radius: 25px;
 }
 
 
@@ -213,4 +215,61 @@ a{
     font-weight: bold;
 
     margin-top: 0px;
+}
+
+.fifthsection{
+    background-color: black;
+
+    height: 400px;
+
+    position: relative;
+}
+
+.calltoactionbox{
+    /* border: solid 5px white; */
+    background: #3882F6;
+    border-radius: 25px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+
+    height: 200px;
+    width: 1300px;
+}
+
+.calltoactiontextandbutton{
+    /* border: solid 5px white; */
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    height: 100px;
+    width: 1000px;
+}
+
+.text2andbuttonflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoactiontext1{
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calltoactiontext2{
+    text-align: left;
+    color: white;
+    font-size: 18px;
 }
