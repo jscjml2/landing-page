@@ -117,20 +117,16 @@ a{
     text-align: center;
 
     height: 600px;
-
-    
 }
 
 .thirdsectionheader{
     color: white;
 
-
     padding: 50px;
 
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
-
 
 
 .fourpictures{
@@ -140,7 +136,6 @@ a{
 
     padding-left: 80px;
     padding-right: 80px;
-
 }
 
 .fourpictureimg{
@@ -156,5 +151,66 @@ a{
     padding-left: 80px;
     padding-right: 80px;
 
+    margin-bottom: 50px;
+
     color: white;
+}
+
+.fourthsection{
+    background-color: #090d11;
+    height: 500px;
+
+    position: relative;
+}
+
+.quotebox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    text-align:justify;
+    /* word-break:keep-all; */
+
+    color: white;
+
+    /* padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; */
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    width: 1000px;
+    height: 250px;
+
+    /* border: solid 10px white; */
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+
+    margin-bottom: 0px;
+}
+
+.quoteauthor{
+    /* border: solid 5px white;
+    text-align: end; */
+
+    display: flex;
+    justify-content: flex-end;
+
+    width: 1000px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-top: 0px;
 }
