@@ -96,8 +96,6 @@ a{
 
     /* gap: 10px; */
 
-    /* border: solid 10px blue; */
-
     width: 1400px;
 }
 
@@ -109,4 +107,54 @@ a{
     padding: 8px 24px;
 
     font-weight: bold;
+}
+
+.thirdsection{
+    /* border: solid 10px purple; */
+    background-color: black;
+
+    /* display: flex; */
+    text-align: center;
+
+    height: 600px;
+
+    
+}
+
+.thirdsectionheader{
+    color: white;
+
+
+    padding: 50px;
+
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+
+.fourpictures{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.fourpictureimg{
+    border: solid 5px #3882F6
+}
+
+
+.fourpicturessubset{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    color: white;
 }
