@@ -1,3 +1,3 @@
-The first, second, third and fourth sections are mostly finished... Its honestly good enough to ship. Might go back and make some things prettier but idk.
+Everything is finished... We could come back and remake this page to be our portfolio website... with links to our github, linkedin, etc... We can also replace the waifu pictures with projects later on.
 
-Next part should be the "Call to action" box. After that is the footer, and we are finished.
+NOTE: The third section could probably be remade... The text under the doesnt automatically line up with the pictures (we had to manually do it with some blank characters)... so if we have text that is too long it will unalign itself. One of the flex odin project exercises shows us how to do this correctly though, so we could always go back and look up how to fix this properly.

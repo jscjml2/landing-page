@@ -220,7 +220,7 @@ a{
 .fifthsection{
     background-color: black;
 
-    height: 400px;
+    height: 500px;
 
     position: relative;
 }
@@ -228,7 +228,7 @@ a{
 .calltoactionbox{
     /* border: solid 5px white; */
     background: #3882F6;
-    border-radius: 25px;
+    border-radius: 10px;
 
     position: absolute;
     left: 0;
@@ -239,7 +239,7 @@ a{
 
 
     height: 200px;
-    width: 1300px;
+    width: 1200px;
 }
 
 .calltoactiontextandbutton{
@@ -256,7 +256,7 @@ a{
     width: 1000px;
 }
 
-.text2andbuttonflex{
+.text1andbuttonflex{
     display: flex;
     justify-content: space-between;
 }
@@ -266,10 +266,50 @@ a{
     color: white;
     font-size: 24px;
     font-weight: bold;
+
+    margin-bottom: 0px;
 }
 
 .calltoactiontext2{
     text-align: left;
     color: white;
     font-size: 18px;
+
+    margin-top: 0px;
+}
+
+.calltoactionbutton{
+    width: 200px;
+    
+    position: relative;
+    top: 25px;
+
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sixthsection{
+    background-color: #090d11;
+    height: 80px;
+
+    position: relative;
+}
+
+.footertext{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
